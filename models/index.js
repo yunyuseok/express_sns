@@ -20,7 +20,7 @@ db.sequelize = sequelize;
 db.User = User;
 db.Post = Post;
 db.Hashtag = Hashtag;
-db.domain = Domain;
+db.Domain = Domain;
 
 User.init(sequelize);
 Post.init(sequelize);
