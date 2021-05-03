@@ -13,6 +13,6 @@ module.exports.isNotLoggedIn = (req, res, next) => {
     next(); // 다음으로 넘김
   } else {
     const message = encodeURIComponent("로그인한 상태입니다.");
-    res.redirection(`/?error=${message}`);
+    res.redirect(`/?error=${message}`);
   }
 };
